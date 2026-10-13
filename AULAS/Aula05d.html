@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta chartser="UTF-8">
+        <title>Exemplo de HTML e CSS</title>
+        <style>
+            /* 1. Aplicação direta ao seletor */
+            p {
+                font-family: arial, sans-serif;
+                font-size: 16px;
+                color: #333
+            }
+            /* 2. Aplicação de classes*/
+            .destaque {
+                background-color: yellow;
+                padding: 10px;
+                border: 1px solid #ccc;
+            }
+            /*3. Aplicação de IDs*/
+            #cabecalho {
+                font-size: 24px;
+                color: blue;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <!--Elemento com ID-->
+        <h1 id="cabecalho">Bem-vindo ao Meu Site</h1>
+
+        <!--Elemento com Classe-->
+        <p class="destaque">Este é um elemento com a classe "destaque". Tem um fundo amarelo e um pouco de padding.</p>
+
+        <!--Aplicação direta ao seletor-->
+        <p>Este é um parágrafo comum. Está formatado diretamente pelo seletor `p` no CSS.</p>
+
+        <!--Outro elemento com classe-->
+        <div class="destaque">
+            Esta é uma div com a classe "destaque". Também tem um fundo amarelo e padding.
+        </div>
+    </body>
+</html>
