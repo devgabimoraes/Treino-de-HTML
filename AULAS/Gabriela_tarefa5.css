@@ -1,0 +1,42 @@
+body {
+	border-color: #c8c8a0;
+    border-width: 20px;
+    border-style: solid;
+    margin: 40px;
+    padding: 10px;
+    background-color: #f0f0c8;
+    font-family: verdana, arial, sans-serif;
+}
+h1 {
+	margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: normal;
+    background-color: #323264;
+	color: #f0f0c8;
+}
+.gabi {
+    text-align: left;
+    font-size: 1.2em;
+    color: rgb(130, 19, 205);
+}
+h2 {
+    font-size: 1.3em;
+	font-weight: bold;
+	color: darkblue;
+}
+
+p {
+    text-indent: 2em;
+    margin: 5px;
+	text-align: justify;
+	font-size: 1.1em;
+	color: darkcyan;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: blue;
+}
